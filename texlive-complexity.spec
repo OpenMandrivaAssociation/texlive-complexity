@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/complexity
+# catalog-date 2007-02-03 21:01:24 +0100
+# catalog-license lppl
+# catalog-version 0.76
 Name:		texlive-complexity
 Version:	0.76
 Release:	1
@@ -46,6 +52,7 @@ ifthen package.
 %doc %{_texmfdistdir}/doc/latex/complexity/complexity.pdf
 %doc %{_texmfdistdir}/doc/latex/complexity/complexity.tex
 %doc %{_texmfdistdir}/doc/latex/complexity/tableofclasses.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ ifthen package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
