@@ -53,3 +53,17 @@ ifthen package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.76-2
++ Revision: 750413
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.76-1
++ Revision: 718111
+- texlive-complexity
+- texlive-complexity
+- texlive-complexity
+- texlive-complexity
+
