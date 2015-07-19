@@ -6,7 +6,7 @@
 # catalog-version 0.76
 Name:		texlive-complexity
 Version:	0.76
-Release:	9
+Release:	10
 Summary:	Computational complexity class names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/complexity
