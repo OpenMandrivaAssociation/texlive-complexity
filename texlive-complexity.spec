@@ -1,6 +1,6 @@
 Name:		texlive-complexity
 Version:	45322
-Release:	1
+Release:	2
 Summary:	Computational complexity class names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/complexity
