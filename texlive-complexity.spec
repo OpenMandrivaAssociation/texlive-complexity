@@ -3,7 +3,7 @@ Version:	45322
 Release:	2
 Summary:	Computational complexity class names
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/complexity
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/complexity
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/complexity.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/complexity.doc.r%{version}.tar.xz
